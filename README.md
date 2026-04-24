@@ -21,7 +21,7 @@ This project predicts house prices using machine learning.
 - Linear Regression
 
 ## 📉 Performance
-- R² Score: ~0.8 (approx)
+- R² Score: ~0.6335
 - RMSE: Moderate
 
 ## 📷 Output
