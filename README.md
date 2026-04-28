@@ -5,12 +5,12 @@
 This project predicts house prices using machine learning based on features like area, number of rooms, and other housing attributes.
 
 ## Files
-- Data/train.csv - Training dataset
-- Data/test.csv - Testing dataset
-- Data/sample_submission.csv - Sample output format
-- Data/submission.csv - Final predictions
+- train.csv - Training dataset
+- test.csv - Testing dataset
+- sample_submission.csv - Sample output format
+- submission.csv - Final predictions
 - house_price_model.py - Main ML code
-- images/house_price_results.png - Result visualization
+- house_price_results.png - Result visualization
 
 ## Technologies Used
 - Python
@@ -30,4 +30,4 @@ This project predicts house prices using machine learning based on features like
 ## How to Run
 ```bash
 pip install -r requirements.txt
-python src/house_price_model.py
+python house_price_model.py
