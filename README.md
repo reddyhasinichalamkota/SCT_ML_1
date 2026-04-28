@@ -2,32 +2,78 @@
 # House Price Prediction using Machine Learning
 
 ## Overview
-This project predicts house prices using machine learning based on features like area, number of rooms, and other housing attributes.
+This project applies **Machine Learning Regression Techniques** to predict house prices based on various housing features. Accurate house price prediction helps buyers, sellers, and real estate businesses make informed decisions using data-driven insights.
 
-## Files
-- train.csv - Training dataset
-- test.csv - Testing dataset
-- sample_submission.csv - Sample output format
-- submission.csv - Final predictions
-- house_price_model.py - Main ML code
-- house_price_results.png - Result visualization
+The model is trained on historical housing data and predicts property prices based on factors such as area, number of bedrooms, bathrooms, and other relevant attributes.
+
+## Objective
+The objective of this project is to analyze housing data and build a predictive model that estimates house prices with high accuracy.
+
+## Key Features
+- Data preprocessing and cleaning  
+- Exploratory Data Analysis (EDA)  
+- Feature selection and engineering  
+- Model training and evaluation  
+- House price prediction  
+- Performance visualization and interpretation  
 
 ## Technologies Used
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
 
-## Workflow
-1. Load dataset
-2. Data preprocessing
-3. Feature engineering
-4. Train model
-5. Predict prices
-6. Save results
+## Dataset Information
+The dataset includes housing details such as:
 
-## How to Run
+- Area (Square Feet)  
+- Number of Bedrooms  
+- Number of Bathrooms  
+- Number of Floors  
+- Parking Availability  
+- Furnishing Status  
+- Main Road Access  
+- Preferred Area  
+- Price (Target Variable)  
+
+## Methodology
+
+### 1. Data Collection
+Loaded the housing dataset and examined the structure.
+
+### 2. Data Preprocessing
+Handled missing values, encoded categorical variables, and prepared the data for training.
+
+### 3. Exploratory Data Analysis
+Analyzed relationships between housing features and price using visualizations.
+
+### 4. Model Training
+Applied regression algorithms to train the prediction model.
+
+### 5. Model Evaluation
+Measured model performance using metrics such as:
+
+- Mean Absolute Error (MAE)  
+- Mean Squared Error (MSE)  
+- R² Score  
+
+### 6. Prediction
+Predicted house prices for unseen test data.
+
+## Output
+The model predicts house prices based on customer inputs and housing features with optimized performance.
+
+## Project Structure
+
 ```bash
-pip install -r requirements.txt
-python house_price_model.py
+SCT_ML_1/
+│── house_price_model.py
+│── train.csv
+│── test.csv
+│── submission.csv
+│── sample_submission.csv
+│── data_description.txt
+│── README.md
+│── output.png
