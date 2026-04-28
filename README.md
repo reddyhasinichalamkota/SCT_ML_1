@@ -1,19 +1,19 @@
 # SCT_ML_1
-# 🏠 House Price Prediction using Machine Learning
+# House Price Prediction using Machine Learning
 
-## 📌 Overview
+## Overview
 This project uses **Machine Learning Regression Techniques** to predict house prices based on housing features such as living area, number of bedrooms, bathrooms, and other important property details.
 
 The model is trained on historical housing data to estimate property prices accurately and provide data-driven insights for the real estate market.
 
 ---
 
-## 🎯 Objective
+## Objective
 To build an efficient predictive model that estimates house prices using supervised machine learning techniques.
 
 ---
 
-## ✨ Key Features
+## Key Features
 ✔️ Data Cleaning & Preprocessing  
 ✔️ Feature Selection  
 ✔️ Exploratory Data Analysis  
@@ -24,7 +24,7 @@ To build an efficient predictive model that estimates house prices using supervi
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python  
 - Pandas  
 - NumPy  
@@ -34,7 +34,7 @@ To build an efficient predictive model that estimates house prices using supervi
 
 ---
 
-## 📂 Dataset Information
+## Dataset Information
 The dataset contains housing attributes such as:
 
 - Living Area (`GrLivArea`)  
@@ -68,7 +68,7 @@ Generated predictions and analyzed model results.
 
 ---
 
-## 📊 Validation Metrics
+##  Validation Metrics
 
 ```text
 MAE  : $36,018.56
