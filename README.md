@@ -1,5 +1,4 @@
 # SCT_ML_1
-# SCT_ML_1
 # House Price Prediction using Machine Learning
 
 ## Overview
