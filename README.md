@@ -45,7 +45,7 @@ The dataset contains housing attributes such as:
 
 ---
 
-## ⚙️ Project Workflow
+## Project Workflow
 
 ### 1️⃣ Data Collection
 Loaded training and testing datasets.
