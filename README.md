@@ -155,14 +155,3 @@ Linear Regression is suitable for house price prediction because:
 - Shows relationship between features and price
 
 ---
-
-## Future Improvements
-
-- Use Random Forest Regressor
-- Use XGBoost for higher accuracy
-- Feature Engineering
-- Hyperparameter Tuning
-- Build Web App using Flask / Streamlit
-- Deploy model online
-
----
